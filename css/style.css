@@ -1,11 +1,21 @@
-.navcolor {
+body {
+    background-color: black ;
+}
+
+
+
+.navcolor , .navbar-collapse{
     background-color: #5c6e91;
 }
 
-h1 {
+.navbar-brand {
+    font-size: 35px !important;
+    font-family: 'Bebas Neue' !important;
     color: azure !important;
 }
 
-.nav-info{
-    flex: 10px;
+.navbar-toggler {
+    color: azure !important;
+    background-color: azure !important;
 }
+
