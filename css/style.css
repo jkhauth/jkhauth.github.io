@@ -87,9 +87,24 @@ nav .nav-link .nav-item
     margin-left: auto;
 }
 .main-box {
-    height: 2000px;
+    height: 500px;
     width: auto;
     background-color: #30475e;
     box-shadow: 0px 0px 10px 10px black;
     position: relative;
+}
+
+/* MAIN PHOTO STYLES */
+
+.main-photo {
+    display: flex;
+}
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 500px !important;
+    height: 500px !important;
 }
