@@ -5,3 +5,7 @@
 h1 {
     color: azure !important;
 }
+
+.nav-info{
+    flex: 10px;
+}
