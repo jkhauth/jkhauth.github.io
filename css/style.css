@@ -1,10 +1,8 @@
-body {
-    background-color: black ;
+* {
+    background-color: pink ;
 }
 
-
-
-.navcolor , .navbar-collapse{
+.navcolor , .navbar-collapse, .nav-link{
     background-color: #5c6e91;
 }
 
@@ -15,7 +13,19 @@ body {
 }
 
 .navbar-toggler {
-    color: azure !important;
+    font-size: 0px !important;
+    border: 1px solid azure;
     background-color: azure !important;
 }
 
+.nav-item .nav-link {
+    font-family: 'Bebas Neue' !important;
+    font-size: 30px;
+    color: azure !important;
+}
+
+button:focus , .nav-link:hover {
+     background-color: #7384a5 !important;
+     outline: 0 !important;
+ 
+}
