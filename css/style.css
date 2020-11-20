@@ -1,31 +1,44 @@
 * {
-    background-color: pink ;
+    background-color: #e8e8e8 ;
 }
+
+/* NAVBAR STYLE */
 
 .navcolor , .navbar-collapse, .nav-link{
-    background-color: #5c6e91;
+    background-color: #222831;
 }
 
-.navbar-brand {
+/*BRAND NAME STYLE*/
+
+nav .brand-text {
     font-size: 35px !important;
     font-family: 'Bebas Neue' !important;
-    color: azure !important;
+    color: #FFFFFF !important;
+    transition: 1s;
 }
 
+.brand-text:hover {
+    text-shadow: 4px 0px #55585C;
+}
+
+/*NAV LINKS AND COLLAPSED ITEMS */
+
+nav .nav-link .nav-item
 .navbar-toggler {
     font-size: 0px !important;
-    border: 1px solid azure;
-    background-color: azure !important;
+    border: 1px solid#FFFFFF;
+    background-color: rgb(190, 255, 255) !important;
 }
 
-.nav-item .nav-link {
+.nav-item , .nav-link {
     font-family: 'Bebas Neue' !important;
     font-size: 30px;
-    color: azure !important;
+    color: #FFFFFF !important;
+    transition: 1s;
+    
 }
 
-button:focus , .nav-link:hover {
-     background-color: #7384a5 !important;
-     outline: 0 !important;
- 
+.nav-link:hover {
+    text-shadow: 4px 0px black;
 }
+
