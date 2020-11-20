@@ -17,7 +17,7 @@ nav .brand-text {
     transition: 1s;
 }
 
-.brand-text:hover {
+.brand-text:hover , {
     text-shadow: 4px 0px #55585C;
 }
 
@@ -34,11 +34,37 @@ nav .nav-link .nav-item
     font-family: 'Bebas Neue' !important;
     font-size: 30px;
     color: #FFFFFF !important;
-    transition: 1s;
+    transition: 2s;
+    transition-timing-function: ease-in;
+    margin-bottom: -2px;   
+}
+
+.nav-underline, .nav-underline2, .nav-underline3, .nav-underline4 {
+    height: 1px;
+    width: 1px;
+    align-self: center;
+    background-color: #222831;
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+
+}
+
+.nav-item:hover .nav-underline, .nav-item:hover .nav-underline2, .nav-item:hover .nav-underline3, .nav-item:hover .nav-underline4  {  
     
+    transform: scale(25, 1);
+    background-color: #FFFFFF;  
 }
-
-.nav-link:hover {
-    text-shadow: 4px 0px black;
+/* COLLAPSE NAV FUNCTIONALITY */
+@media only screen and (max-width: 991px) {
+    .nav-item:hover .nav-underline, .nav-item:hover .nav-underline2, .nav-item:hover .nav-underline3, .nav-item:hover .nav-underline4 {
+        background-color: #FFFFFF;
+        transform: scale(50 , 1);
+    }
+    .nav-link {
+        width: auto;
+    }
+    .navbar-nav {
+        align-items: center;
+        background-color: unset;
+    }
 }
-
