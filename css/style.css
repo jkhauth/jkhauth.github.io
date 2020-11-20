@@ -78,9 +78,17 @@ nav .nav-link .nav-item
 .main-body {
     position: absolute;
 }
+.main-section {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .main-box {
     height: 2000px;
-    width: 100px;
+    width: auto;
     background-color: aqua;
     box-shadow: 0px 0px 5px 2px black;
     position: relative;
