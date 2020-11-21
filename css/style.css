@@ -10,7 +10,7 @@
 
 .navbar {
     box-shadow: 0px 8px 8px black;
-    width: -webkit-fill-available;
+    width: auto;
 }
 /*BRAND NAME STYLE*/
 
