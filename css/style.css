@@ -10,7 +10,7 @@
 
 .navbar {
     box-shadow: 0px 8px 8px black;
-    width: -webkit-fill-available;
+    width: auto;
 }
 /*BRAND NAME STYLE*/
 
@@ -106,6 +106,7 @@ nav .nav-link .nav-item
     display: flex !important;
 }
 
+<<<<<<< HEAD
 /* HEADLINE STYLE */
 
 .headline-main {
@@ -113,6 +114,20 @@ nav .nav-link .nav-item
     color: #FFFFFF !important;
     background-color:  #30475e;
     text-decoration: underline;
+=======
+/* MAIN ARTICLE */
+.main-body-filler{
+    position: relative;
+    justify-content: center;
+    background-color: red;
+    height: auto !important;
+    width: auto !important;
+    padding: 0 !important;
+}
+.first-headline-article {
+    display: flex;
+    justify-content: center;
+>>>>>>> a75c5f356c53f0d25ed5fa6764cd99ac57b1e34f
 }
 
 
