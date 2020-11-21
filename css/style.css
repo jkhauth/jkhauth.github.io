@@ -107,7 +107,15 @@ nav .nav-link .nav-item
 }
 
 /* MAIN ARTICLE */
-
+.main-body-filler{
+    position: relative;
+    justify-content: center;
+    margin-right: 0 !important;
+    height: 200px !important;
+    width: 200px !important;
+    background-color: red;
+}
 .first-headline-article {
     display: flex;
+    justify-content: center;
 }
