@@ -113,6 +113,7 @@ nav .nav-link .nav-item
     background-color: red;
     height: auto !important;
     width: auto !important;
+    padding: 0 !important;
 }
 .first-headline-article {
     display: flex;
