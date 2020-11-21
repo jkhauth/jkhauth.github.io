@@ -118,10 +118,12 @@ nav .nav-link .nav-item
 }
 /* MAIN ARTICLE */
 
-.main-text {
-    width: 500px !important;
-
+.main-content {
+    background-color:  #30475e;
+    max-width: 500px !important;
 }
+
+
 
 
 
