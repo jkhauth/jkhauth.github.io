@@ -106,7 +106,6 @@ nav .nav-link .nav-item
     display: flex !important;
 }
 
-<<<<<<< HEAD
 /* HEADLINE STYLE */
 
 .headline-main {
@@ -114,20 +113,16 @@ nav .nav-link .nav-item
     color: #FFFFFF !important;
     background-color:  #30475e;
     text-decoration: underline;
-=======
+    text-shadow: -8px 1px black;
+
+}
 /* MAIN ARTICLE */
-.main-body-filler{
-    position: relative;
-    justify-content: center;
-    background-color: red;
-    height: auto !important;
-    width: auto !important;
-    padding: 0 !important;
+
+.main-text {
+    width: 500px !important;
+
 }
-.first-headline-article {
-    display: flex;
-    justify-content: center;
->>>>>>> a75c5f356c53f0d25ed5fa6764cd99ac57b1e34f
-}
+
+
 
 
