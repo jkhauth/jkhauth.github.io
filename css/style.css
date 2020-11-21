@@ -38,7 +38,7 @@ nav .nav-link .nav-item
     font-family: 'Bebas Neue' !important;
     font-size: 30px;
     color: #FFFFFF !important;
-    transition: 2s;
+    transition: 1s;
     transition-timing-function: ease-in;
     margin-bottom: -2px;   
 }
@@ -100,8 +100,7 @@ nav .nav-link .nav-item
     background-color: #fff;
     border: 1px solid #dee2e6;
     border-radius: .25rem;
-    max-width: 500px !important;
-    width: auto;
+    width: 500px;
     height: auto;
     display: flex !important;
     margin-bottom: 50px;
