@@ -106,15 +106,13 @@ nav .nav-link .nav-item
     display: flex !important;
 }
 
-/* MAIN ARTICLE */
-.main-body-filler{
-    position: relative;
-    justify-content: center;
-    background-color: red;
-    height: auto !important;
-    width: auto !important;
+/* HEADLINE STYLE */
+
+.headline-main {
+    font-family: 'Bebas Neue' !important;
+    color: #FFFFFF !important;
+    background-color:  #30475e;
+    text-decoration: underline;
 }
-.first-headline-article {
-    display: flex;
-    justify-content: center;
-}
+
+
