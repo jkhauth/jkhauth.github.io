@@ -75,40 +75,35 @@ nav .nav-link .nav-item
 .article-box {
     box-shadow: 0px 0px 15px 5px black;
     margin: 25px;
-}
-
-.main-content , p{
     background-color:  #222831;
-    color: #FFFFFF;
-    text-align: center;
-    display: flex;
-    padding: 10px;
 }
 
 .main-section {
-    height: auto;
-    width: auto;
     padding-top: 120px;
-
 }
 
 .main-box {
-    height: auto;
-    width: auto;
     background-color: #30475e;
     box-shadow: 0px 0px 10px 10px black;
 }
 
-/* HEADLINE STYLE */
+/* HEADLINE AND SIMPLE TEXT STYLE */
+.simple-text {
 
+    font-family: 'Bebas Neue' !important;
+    color: #FFFFFF !important;
+    background-color:  #222831;
+
+}
 .headline-main {
     font-family: 'Bebas Neue' !important;
     color: #FFFFFF !important;
     background-color:  #222831;
     text-decoration: underline;
-    text-shadow: -8px 1px black;
+    text-shadow: -4px 1px black;
 
 }
+
 
 /* FOOTER STYLES */
 .footer-main-box {
