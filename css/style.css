@@ -75,11 +75,7 @@ nav .nav-link .nav-item
 }
 
 /* MAIN BODY STYLES */
-.main-body {
-    position: absolute;
-}
 .main-section {
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-top: 120px;
@@ -133,7 +129,9 @@ nav .nav-link .nav-item
     background-color:  #222831;
     color: #FFFFFF;
     text-align: center;
-    width: 500px;
+    display: flex;
+    width: 400px;
+    padding: 10px;
 }
 
 /* FOOTER STYLES */
