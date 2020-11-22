@@ -101,17 +101,17 @@ nav .nav-link .nav-item
     border: 1px solid #dee2e6;
     border-radius: .25rem;
     display: flex !important;
-    box-shadow: 0px 0px 10px 10px black
+    box-shadow: 0px 0px 10px 10px black;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 /* MAIN ARTICLE STYLE */
 
 .headline-article-box {
     box-shadow: 0px 0px 15px 5px black;
-    margin: 50px;
+    height: 400px;
 }
-
-
 
 
 /* HEADLINE STYLE */
@@ -122,6 +122,7 @@ nav .nav-link .nav-item
     background-color:  #222831;
     text-decoration: underline;
     text-shadow: -8px 1px black;
+    height: 50px;
 
 }
 /* MAIN ARTICLE */
