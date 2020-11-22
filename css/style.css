@@ -76,12 +76,17 @@ nav .nav-link .nav-item
 
 /* MAIN BODY STYLES */
 .main-section {
-    padding-right: 15px;
-    padding-left: 15px;
+    height: auto;
+    width: auto;
     margin-top: 120px;
     margin-right: auto;
     margin-left: auto;
 }
+.main-body {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
 .main-box {
     height: auto;
     width: auto;
