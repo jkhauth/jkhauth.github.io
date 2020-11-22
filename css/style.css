@@ -78,13 +78,10 @@ nav .nav-link .nav-item
 .main-section {
     height: auto;
     width: auto;
-    margin-top: 120px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.main-body {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 120px;
+
 }
 
 .main-box {
