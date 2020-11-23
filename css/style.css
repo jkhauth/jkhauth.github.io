@@ -4,7 +4,7 @@ body {
     background-color: lightslategrey !important;
 }
 
-nav .brand-text, h1, h3, .nav-item, .nav-link {
+nav .brand-text, h1, h3, .nav-item, .nav-link, h2 {
     font-size: 35px !important;
     font-family: 'Bebas Neue' !important;
     color: #FFFFFF !important;
