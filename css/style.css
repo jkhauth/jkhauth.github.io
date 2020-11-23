@@ -1,27 +1,37 @@
-/* NAVBAR STYLE */
 
-.navcolor , .navbar-collapse, .nav-link, .footer-main{
-    background-color: #222831;
-}
 
-.navbar {
-    box-shadow: 0px 8px 8px black;
-    width: auto;
-}
-/*BRAND NAME STYLE*/
 
-nav .brand-text {
+/* HEADLINES - BRAND - TEXT STYLE */
+
+nav .brand-text, h1, h3, .nav-item, .nav-link {
     font-size: 35px !important;
     font-family: 'Bebas Neue' !important;
     color: #FFFFFF !important;
-    transition: 1s;
 }
 
-.brand-text:hover {
-    text-shadow: 4px 0px #55585C;
+p {    
+    font-family: 'Bebas Neue' !important;
+    color: #FFFFFF !important;
+    background-color:  #222831;
+
 }
 
-/*NAV LINKS AND COLLAPSED ITEMS */
+
+/* NAVIGATION BAR STYLE AND BOX SHADOW */
+
+/* NAVBAR STYLE */
+
+.navcolor , .navbar-collapse, .nav-link, .footer-main, .article-box {
+    background-color: #222831;
+}
+
+
+/* NAVBAR SHADOW AND HAMBURGER STYLE */
+
+.navbar {
+    box-shadow: 0px 8px 8px black;
+}
+
 
 nav .nav-link .nav-item
 .navbar-toggler {
@@ -30,13 +40,12 @@ nav .nav-link .nav-item
     background-color: rgb(190, 255, 255) !important;
 }
 
-.nav-item , .nav-link {
-    font-family: 'Bebas Neue' !important;
-    font-size: 30px;
-    color: #FFFFFF !important;
-    transition: 1s;
-    transition-timing-function: ease-in;
-    margin-bottom: -2px;   
+
+/* UNDERLINE NAVLINK FUNCTIONALITY */
+.nav-item:hover .nav-underline, .nav-item:hover .nav-underline2, .nav-item:hover .nav-underline3, .nav-item:hover .nav-underline4  {  
+    
+    transform: scale(25, 1);
+    background-color: #FFFFFF;  
 }
 
 .nav-underline, .nav-underline2, .nav-underline3, .nav-underline4 {
@@ -49,10 +58,10 @@ nav .nav-link .nav-item
 
 }
 
-.nav-item:hover .nav-underline, .nav-item:hover .nav-underline2, .nav-item:hover .nav-underline3, .nav-item:hover .nav-underline4  {  
-    
-    transform: scale(25, 1);
-    background-color: #FFFFFF;  
+.nav-item , .nav-link {
+    transition: 1s;
+    transition-timing-function: ease-in;
+    margin-bottom: -2px;   
 }
 
 /* COLLAPSE NAV FUNCTIONALITY */
@@ -70,12 +79,15 @@ nav .nav-link .nav-item
     }
 }
 
+
+
+/* MAIN BODY CONTAINERS AND BOX SHADOWS */
+
 /* MAIN ARTICLE BOX */
 
 .article-box {
     box-shadow: 0px 0px 15px 5px black;
     margin: 25px;
-    background-color:  #222831;
 }
 
 .main-section {
@@ -87,42 +99,14 @@ nav .nav-link .nav-item
     box-shadow: 0px 0px 10px 10px black;
 }
 
-/* HEADLINE AND SIMPLE TEXT STYLE */
-.simple-text {
+/* FOOTER SHADOW */
 
-    font-family: 'Bebas Neue' !important;
-    color: #FFFFFF !important;
-    background-color:  #222831;
-
-}
-.headline-main {
-    font-family: 'Bebas Neue' !important;
-    color: #FFFFFF !important;
-    background-color:  #222831;
-    text-decoration: underline;
-    text-shadow: -4px 1px black;
-
-}
-
-
-/* FOOTER STYLES */
 .footer-main-box {
     box-shadow: 0px 0px 15px 5px black;
 }
 
-.footer-headline {
-   font-size: 35px; 
-   padding-top: 10px;
-    color: #FFFFFF;
-    font-family: 'Bebas Neue' !important;
-    text-shadow: 4px 0px #55585C;
-    margin-bottom: 0;
-}
 
-.footer-text {
-    margin-bottom: 0;
-    padding: 0;
-}
+
 
 
 
