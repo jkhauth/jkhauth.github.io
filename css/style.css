@@ -2,6 +2,10 @@
 
 
 /* HEADLINES - BRAND - TEXT STYLE */
+body {
+
+    background-color: lightslategrey !important;
+}
 
 nav .brand-text, h1, h3, .nav-item, .nav-link {
     font-size: 35px !important;
@@ -10,7 +14,7 @@ nav .brand-text, h1, h3, .nav-item, .nav-link {
 }
 
 p {    
-    font-family: 'Bebas Neue' !important;
+    font-family: 'Montserrat' !important;
     color: #FFFFFF !important;
     background-color:  #222831;
 
@@ -25,13 +29,11 @@ p {
     background-color: #222831;
 }
 
-
 /* NAVBAR SHADOW AND HAMBURGER STYLE */
 
 .navbar {
     box-shadow: 0px 8px 8px black;
 }
-
 
 nav .nav-link .nav-item
 .navbar-toggler {
@@ -39,7 +41,6 @@ nav .nav-link .nav-item
     border: 1px solid#FFFFFF;
     background-color: rgb(190, 255, 255) !important;
 }
-
 
 /* UNDERLINE NAVLINK FUNCTIONALITY */
 .nav-item:hover .nav-underline, .nav-item:hover .nav-underline2, .nav-item:hover .nav-underline3, .nav-item:hover .nav-underline4  {  
@@ -91,7 +92,8 @@ nav .nav-link .nav-item
 }
 
 .main-section {
-    padding-top: 120px;
+    position: relative;
+    margin: 120px;
 }
 
 .main-box {
