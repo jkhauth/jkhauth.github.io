@@ -1,4 +1,4 @@
-/* HEADLINES - BRAND - TEXT STYLE */
+/* HEADLINES - BRAND - TEXT STYLE - SOCIAL MEDIA ICONS */
 body {
 
     background-color: lightslategrey !important;
@@ -15,6 +15,11 @@ p {
     color: #FFFFFF !important;
     background-color:  #222831;
 
+}
+
+.social-footer-content {
+    font-size: 25px;
+    color: #FFFFFF;
 }
 
 /* NAVIGATION BAR STYLE AND BOX SHADOW */
