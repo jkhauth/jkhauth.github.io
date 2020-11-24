@@ -1,14 +1,17 @@
 # John Hauth Portfolio
 
-## Installing Bootstrap
-
-Finding the source code to use bootstrap was fairly ease to find and link to my site. I also downloaded built copy of the CSS and JS code so I could look for specific artibutes or classes.
-
-## Navigation Bar
-
-I learned how to make the responsive navigation bar by just following the docs in the Bootstrap docs. First I created the nav bar and filled in the brand name as my name for the placeholder. Once I figured out how to call and then minipulate the classes in other file, it become easier on how to use bootstrap.
-
-
+<p> My portfolio shows you not only my interests and what I like to do, but also my techinques when it comes to coding. Firstly, the framwork was built using Bootstrap to make easy to view on any deveice screen seamlessly. I like to stay detailed and make sure I know what I am coding and leaving a breadcrumb for whoever is looking at it. One of my passions is making sure that coding and different coding styles be available to everyone so we can build off of each other. 
+Contacting me and viewing a portfolio should be easy, which is why I went with simplicty with the design. I want to present something that will leave an impact but also doesn't overdue it with all the bells and whistles. I believe being honest with your work and yourself drives success and helps you become a better coder.
+	
+	You can view my website at:
+	https://jkhauth.github.io/
+	You can view my contact page at:
+	https://jkhauth.github.io/contact-me.html
+	You can view my gallery/portfolio at:
+	https://jkhauth.github.io/portfolio.html
+	
+	</p>
+	
 ## Screenshots with each viewport
 <table>
 	<thead>
