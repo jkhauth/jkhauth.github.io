@@ -6,9 +6,13 @@ Contacting me and viewing a portfolio should be easy, which is why I went with s
 You can view my website at:
 <br>
 https://jkhauth.github.io/
+<br>
 You can view my contact page at:
+<br>
 https://jkhauth.github.io/contact-me.html
+<br>
 You can view my gallery/portfolio at:
+<br>
 https://jkhauth.github.io/portfolio.html
 	
 ## Screenshots with each viewport
