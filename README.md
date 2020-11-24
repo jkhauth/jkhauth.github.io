@@ -4,6 +4,7 @@ My portfolio shows you not only my interests and what I like to do, but also my 
 Contacting me and viewing a portfolio should be easy, which is why I went with simplicty with the design. I want to present something that will leave an impact but also doesn't overdue it with all the bells and whistles. I believe being honest with your work and yourself drives success and helps you become a better coder.
 	
 You can view my website at:
+<br>
 https://jkhauth.github.io/
 You can view my contact page at:
 https://jkhauth.github.io/contact-me.html
