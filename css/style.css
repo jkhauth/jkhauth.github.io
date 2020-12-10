@@ -1,8 +1,4 @@
 /* HEADLINES - BRAND - TEXT STYLE - SOCIAL MEDIA ICONS */
-body {
-
-    background-color: lightslategrey !important;
-}
 
 nav .brand-text, h1, h3, .nav-item, .nav-link, h2 {
     font-size: 35px !important;
@@ -13,7 +9,7 @@ nav .brand-text, h1, h3, .nav-item, .nav-link, h2 {
 p {    
     font-family: 'Montserrat' !important;
     color: #FFFFFF !important;
-    background-color:  #222831;
+    background-color:  #54775d;
 
 }
 
@@ -22,27 +18,17 @@ p {
     color: #FFFFFF;
 }
 
-/* NAVIGATION BAR STYLE AND BOX SHADOW */
-
 /* NAVBAR STYLE */
-
 .navcolor , .navbar-collapse, .nav-link, .footer-main, .article-box {
-    background-color: #222831;
+    background-color: #54775d;
 }
-
 /* NAVBAR SHADOW AND HAMBURGER STYLE */
-
-.navbar {
-    box-shadow: 0px 8px 8px black;
-}
-
 nav .nav-link .nav-item
 .navbar-toggler {
     font-size: 0px !important;
     border: 1px solid#FFFFFF;
     background-color: rgb(190, 255, 255) !important;
 }
-
 /* UNDERLINE NAVLINK FUNCTIONALITY */
 .nav-item:hover .nav-underline, .nav-item:hover .nav-underline2, .nav-item:hover .nav-underline3, .nav-item:hover .nav-underline4  {  
     
@@ -65,7 +51,6 @@ nav .nav-link .nav-item
     transition-timing-function: ease-in;
     margin-bottom: -2px;   
 }
-
 /* COLLAPSE NAV FUNCTIONALITY */
 @media only screen and (max-width: 991px) {
     .nav-item:hover .nav-underline, .nav-item:hover .nav-underline2, .nav-item:hover .nav-underline3, .nav-item:hover .nav-underline4 {
@@ -80,34 +65,19 @@ nav .nav-link .nav-item
         background-color: unset;
     }
 }
-
-
-
-/* MAIN BODY CONTAINERS AND BOX SHADOWS */
-
 /* MAIN ARTICLE SECTIONS AND ARTICLES */
-
 .article-box {
     box-shadow: 0px 0px 15px 5px black;
     margin: 25px;
 }
-
 .main-section {
     position: relative;
     margin: 120px;
 }
 
-.main-box {
-    background-color: #30475e;
-    box-shadow: 0px 0px 10px 10px black;
+.main-photo{
+width: 180px;
 }
-
-/* FOOTER SHADOW */
-
-.footer-main-box {
-    box-shadow: 0px -8px 8px 0px black;
-}
-
 
 
 
