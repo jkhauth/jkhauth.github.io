@@ -1,12 +1,22 @@
-var i = 0;
-var text = "Welcome! I'm John Kendall";
-var speed = 70;
-TypeWriter();
+const target = window.document.getElementsByTagName('h1')[0]
 
-function TypeWriter() {
-    if (i < text.length){
-        document.getElementById("headline").innerHTML += text.charAt(i);
-        i++
-        setTimeout(TypeWriter, speed);
-    }
-  }
+const flickerLetter = letter => `<span style="animation: text-flicker-in-glow ${Math.random()*4}s linear both ">${letter}</span>`
+const colorLetter = letter => `<span style="color: hsla(${Math.random()*360}, 100%, 80%, 1);">${letter}</span>`;
+const flickerAndColorText = text => 
+  text
+    .split('')
+    .map(flickerLetter)
+    .map(colorLetter)
+    .join('');
+const neonGlory = target => target.innerHTML = flickerAndColorText(target.textContent);
+
+
+neonGlory(target);
+target.onclick = ({ target }) =>  neonGlory(target);
+
+
+
+
+$('.carousel').carousel({
+    interval: false
+  })
