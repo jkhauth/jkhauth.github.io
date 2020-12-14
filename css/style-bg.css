@@ -17,7 +17,9 @@ html, body {
   width: 100%;
   overflow:hidden;
 }
-
+.hide {
+  display: none;
+}
 .carousel .carousel-inner {
   height:100%;    
 }
