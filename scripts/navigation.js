@@ -1,6 +1,3 @@
-$('#portfolio').hide()
-
-
 $(document).ready(function(){
     $("#portfolio-btn").click(function(){
         $('#homepage').slideToggle(600);

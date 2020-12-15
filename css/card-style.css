@@ -8,6 +8,12 @@
   justify-content: center;
 }
 
+.container-fluid{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+
 .container-card .card .card-body.card-body-1{
   position: relative;
   background: #333;
