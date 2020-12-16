@@ -17,10 +17,12 @@ html, body {
 h3{
   font-family: 'Pacifico', cursive !important;
 }
+
 .lang-used{
   margin: 0 !important;
   align-items: center;
 }
+
 .collapsible {
   background-color: #777;
   color: white;
