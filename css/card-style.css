@@ -8,11 +8,16 @@
   justify-content: center;
 }
 
-.container-fluid{
-  background-color: rgba(0, 0, 0, 0);
+@media only screen and (max-width: 800px) {
+  #main-name {
+    font-size: 75px !important;
+  }
 }
-
-
+@media only screen and (max-width: 300px) {
+  #main-name {
+    font-size: 40px !important;
+  }
+}
 
 .container-card .card .card-body.card-body-1{
   position: relative;
