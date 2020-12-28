@@ -1,114 +1,176 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Bebas Neue|Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-    <main>
-        <!--NAVIGATION BAR-->
-        <nav class="navbar navbar-expand-lg navbar-light navcolor fixed-top ">
-            <a href="#" class="navbar-brand brand-text">John's Portfolio</a>
-            <button class="navbar-toggler " data-toggle="collapse" data-target="#navbarmenu">
-                <span class="navbar-toggler-icon btn-sm"></span>
-            </button>
-            <figure class="collapse navbar-collapse m-0" id="navbarmenu">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ">
-                        <a href="index.html" class="nav-link d-flex flex-column">Home<div class="nav-underline"></div></a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="/portfolio.html" class="nav-link d-flex flex-column">Portfolio<div class="nav-underline2"></div></a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="/contact-me.html" class="nav-link d-flex flex-column">Contact Me<div class="nav-underline3"></div></a>
-                    </li>
-                </ul>
-            </figure>
-    </nav>
-
-        <!--MAIN CONTENT-->
-    <div class="container main-section">
-            <div class="col main-box justify-content-center align-items-center">
-            <!--MAIN CONTENT HEADLINE-->
-                <h2 class="p-2 col-sm text-center m-0">Contact Me</h2>
-                <hr class="mt-0">
-        <!--CONTACT CONTENT-->
-        <form class="form-group">
-            <section class="row justify-content-center mt-2 align-items-cente text-center">
-                    <section class="col- m-1 form-group">
-                        <!--FILL OUT NAME-->
-                        <h3>Name:</h3>
-                        <input type="text" class="form-control" required>
-                    </section>
-                    <section class="col- m-1 form-group">
-                        <!--FILL OUT EMAIL-->
-                        <h3>EMAIL ADDRESS:</h3>
-                        <input type="text" class="form-control" required>
-                    </section>
-            </section>
-        
-            <!--FILLING OUT MESSAGE-->
-            <section class="row justify-content-center mt-2 align-items-center text-center">
-                <section class="col-sm-5 m-1 form-group">
-                    <!--FILL OUT NAME-->
-                    <h3>YOUR MESSAGE TO ME:</h3>
-                    <textarea type="text" class="form-control" required></textarea>
-                    <button class="btn btn-sm mt-2 disabled">SEND IT</button>
-                </section>
-            </section>
-        </form>
-        </div>
-        </div>
-
-
-        <!-- FOOTER -->
-        <footer class="page-footer footer-main-box fixed-bottom">
-            <!-- MAIN FOOTER CONTENT -->
-            <div class="container-fluid">
-                <!-- FOOTER ROW -->
-                <div class="row footer-main text-center">
-                    <!-- MAIN CONTENT COLUMN -->
-                    <div class="col mt ml-auto mr-auto">
-                        <!-- FOOTER HEADLINE ROW -->
-                        <h3 class="footer-headline pt-1 mb-0">LETS CONNECT</h3>
-                        <!--SOCIAL MEDIA ROW-->
-                        <div class="social-footer-content pl-3">
-                            <a class="tw-ic mr-3" role="button"><i class="fa fa-twitter"></i></a>
-                            <a class="tw-ic mr-3" role="button"><i class="fa fa-github-square"></i></a>
-                            <a class="tw-ic mr-3" role="button"><i class="fa fa-linkedin-square"></i></a>
-                            <a class="tw-ic mr-3" role="button"><i class="fa fa-steam-square"></i></a>
-                        </div>
-                        <!--COPYRIGHT ROW-->
-                        <p class="m-1 text-muted">©jkhauth content</p>
-
-                    </div>
-                </div>
+<div class="d-flex flex-wrap flex-row justify-content-center align-items-center">
+                        
+    <div class="d-flex flex-column flex-column align-items-center">
+            <h1 class="text-center" id="main-name">John-Hauth</h1>
+            <div class="d-flex flex-row justify-content-center" id="undernametext">
+                    <h3>Creator</h3>
+                    <h3 class="px-2">|</h3>
+                    <h3>Developer</h3>
             </div>
-        </footer>
-    </main>
+            <div class="d-flex flex-row" id="connect-icons">
+                    <a href="https://twitter.com/jk_hauth"><i
+                                    class="fab fa-twitter-square glow px-2"></i></a>
+                    <a href="https://github.com/jkhauth"><i
+                                    class="fa fa-github-square px-2 glow"></i></a>
+                    <a href="https://www.linkedin.com/in/john-k-hauth/"><i
+                                    class="fa fa-linkedin-square px-2 glow"></i></a>
+                    <a href="mailto:jkhauth@gmail.com"><i
+                                    class="fas fa-envelope-open-text glow px-2"></i></a>
+                    <a href="tel:+1-267-713-8852"><i
+                                    class="fas fa-mobile-alt glow px-2"></i></a>
+            </div>
+    </div>
+<!--RIGHT HAND SIDE OF WEB PAGE-->
+    <div class="d-flex flex-column flex-wrap m-2" id="aboutme">
+            <div class="d-flex flex-row justify-content-center" id="navbox">
+                    <h3 type="button" class="homelink" id="home-btn">Home</h3>
+                    <h3 class="px-2">|</h3>
+                    <h3 type="button" class="prtlink" id="portfolio-btn">Portfolio</h3>
+                    <h3 class="px-2">|</h3>
+                    <a href="/files/John - Hauth Resume.pdf" download>
+                            <h3>Resume</h3>
+                    </a>
+            </div>
+            <div id="aboutmesection">
+                    <div class="d-flex flex-column flex-wrap">
+                            <p>Welcome! I am an aspiring web developer with strong business
+                                    management experience. I'm seeking a role that will
+                                    continue to allow me to build strong relationships with
+                                    clients and provide an infinite drive for success.
+                            </p>
+                            <p>I am currently obtaining a certification in Full Stack
+                                    Development from the University of Pennsylvania. I am
+                                    excited to increase my knowledge in the fundamentals and
+                                    ethics of web development.</p>
+                            <p>In my free time I enjoy making my own hot sauce, playing
+                                    fantasy football, and reading any Batman comic I can! I
+                                    enjoy meeting new people and exploring any new Mexican
+                                    restaurant. Feel free to reach out and lets build
+                                    something together!</p>
+                    </div>
+            </div>
+            <div id="portfoliocontent">
+                    <div class="d-flex flex-column justify-content-center">
+                            <!--PROJECT 1-->
+                            <button type="button" class="collapsible"
+                                    id="thme-btn">THme</button>
+                            <div class="bg-light content align-items-center"
+                                    id="projectone">
+                                    <img class="img-fluid m-2 content-gif" alt="THme-Demo"
+                                            id="THme-Demo" src="images/THmeDemoFull.gif">
+                                    <a href="https://github.com/jkhauth/THme">THme Github
+                                            Page</a><br>
+                                    <a href="https://jkhauth.github.io/THme/">THme
+                                            Application Page</a><br>
+                                    <div class="row lang-used">
+                                            <i class="fab fa-html5"></i><i
+                                                    class="fab fa-css3-alt"></i><i
+                                                    class="fab fa-sass"></i><i
+                                                    class="fab fa-js-square"></i>
+                                    </div>
+                                    <p style="color: black;">This app has been created
+                                            between four full-stack developer students
+                                            calling themselves GreenLight. Using the tools
+                                            we've learned and/or self-taught, we've built
+                                            this app to recommend medical cannabis strains
+                                            for the user's ailments. Based on the user
+                                            symptoms, certain medicinal cannabis strains are
+                                            recommended. The recommendations for medical
+                                            cannabis are selected and pulled from a
+                                            server-side API (The Strain API). Along with
+                                            cannabis strains, a selection of herbal home
+                                            remedies is also recommended to the user. Those
+                                            holistic remedies are sourced and pulled from
+                                            another server-side API (Personal Remedies API).
+                                    </p>
+                            </div>
+                            <!--PROJECT 2-->
+                            <button type="button" class="collapsible"
+                                    id="codeengine-btn">Code Engine</button>
+                            <div class="bg-light content" id="projecttwo">
+                                    <img class="img-fluid m-2 content-gif"
+                                            alt="CodeEngine-Demo" id="CodeEngine-Demo"
+                                            src="images/Code Engine - Demo.gif">
+                                    <a href="https://github.com/jkhauth/code-engine">Code-Engine
+                                            Github Page</a><br>
+                                    <a href="https://jkhauth.github.io/code-engine/">Code-Engine
+                                            Application Page</a>
+                                    <div class="row lang-used">
+                                            <i class="fab fa-html5"></i><i
+                                                    class="fab fa-css3-alt"></i><i
+                                                    class="fab fa-js-square"></i>
+                                    </div>
+                                    <p style="color: black;">Keeping your information
+                                            private on the internet is hard and its easy
+                                            using the same password over and over again.
+                                            This application helps you create an unique
+                                            password to keep your ID safe.</p>
+                            </div>
+                            <!--PROJECT 3-->
+                            <button type="button" class="collapsible" id="AA-btn">Atmosphere
+                                    Advisory</button>
+                            <div class="bg-light content" id="projectthree">
+                                    <img class="img-fluid m-2 content-gif"
+                                            alt="AAdvisory-Demo" id="AAdvisory-Demo"
+                                            src="images/Atmosphere Advisory.gif">
+                                    <a
+                                            href="https://github.com/jkhauth/Atmosphere-Advisory">Atmosphere
+                                            Advisory Github Page</a><br>
+                                    <a
+                                            href="https://jkhauth.github.io/Atmosphere-Advisory/">Atmosphere
+                                            Advisory Application Page</a>
+                                    <div class="row lang-used">
+                                            <i class="fab fa-html5"></i><i
+                                                    class="fab fa-css3-alt"></i><i
+                                                    class="fab fa-js-square"></i>
+                                    </div>
+                                    <p style="color: black;">The inspiration I had for this
+                                            project was to apply simplicty to weather
+                                            searching. This application is so easy that any
+                                            one any where could use it. It not only takes
+                                            the actual name of citys but it also takes the
+                                            nicknames for those cities as well.
+                                            When a user types in the requested city, the
+                                            application then deploys the current information
+                                            for that current city and also the five day
+                                            forecast from that time. Along with it, it
+                                            provides icons showing what type of weather that
+                                            location will be having.
+                                            The basic functionality for this application is
+                                            that when the user enters a valid city, it gives
+                                            searches the longitude and latitude for that
+                                            city then deploys the information.
+                                            In the near future, I will hope to update this
+                                            application and provide more interactive
+                                            features including animations of the weather
+                                            that is currently happening.</p>
+                            </div>
+                            <!--PROJECT 4-->
+                            <button type="button" class="collapsible" id="teamgen-btn">CLI Team
+                                    Generator</button>
+                            <div class="bg-light content" id="projectfour">
+                                    <img class="img-fluid m-2 content-gif"
+                                            alt="team-gen Demo" id="team-gen-demo"
+                                            src="https://user-images.githubusercontent.com/72667159/102820541-6baa8680-43a3-11eb-8514-8aeace560fd2.gif">
+                                    <a href="https://github.com/jkhauth/code-engine">Team
+                                            Generator Github Page</a><br>
+                                    <div class="row lang-used">
+                                            <i class="fab fa-html5"></i><i
+                                                    class="fab fa-css3-alt"></i><i
+                                                    class="fab fa-js-square"></i>
+                                    </div>
+                                    <p style="color: black;">This repository feautures a
+                                            node applicaiton that can be used by any
+                                            workplace that may need to generate a HTML. When
+                                            the user uses the application, it prompts them
+                                            questions on which asks them a persons role.
+                                            Depending on a persons role on their team may
+                                            feature different questions. When all input is
+                                            finished, they select the generate team feature
+                                            and a web page is built for them.</p>
+                            </div>
+                    </div>
+            </div>
+    </div>
 
-
-
-
-    <!--JS-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+</div>
