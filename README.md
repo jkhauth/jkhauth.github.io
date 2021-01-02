@@ -5,6 +5,6 @@ Contacting someone in web development and viewing a portfolio should be easy, wh
 	
 You can view my website at:
 <br>
-https://jkhauth.github.io/
+https://jkhauth.com
 <br>
 
