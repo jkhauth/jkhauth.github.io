@@ -1,27 +1,15 @@
-var foldericon = $('#folder-icon')
-var foldericon_open = $('#folder-icon-open')
-var textcontent = $('#text-content')
-var mainpic = $('#ascii-pic')
-var projects = $('#projects')
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+    $('#me-pic').hide()
+    document.body.style.backgroundImage = "none"
+    document.body.style.backgroundColor = "#2b0fde"
+  } else {
+    $('#me-pic').show()
+  }
+}
 
+var x = window.matchMedia("(max-width: 800px)" || "(max-width: 300px)")
+myFunction(x)
 
-$('ul').toggle()
-$(foldericon_open).toggle()
-$(projects).toggle()
-
-
-$('#projectbtn').click(function (e) { 
-  e.preventDefault();
-  foldericon.toggle()
-  foldericon_open.toggle()
-
-  //main content
-  $(textcontent).toggle()
-  $(mainpic).toggle()
-
-  //project content
-  $(projects).toggle()
-  $('ul').slideToggle("slow")
-});
 
 
