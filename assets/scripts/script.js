@@ -1,10 +1,9 @@
 function myFunction(x) {
   if (x.matches) { // If media query matches
-    $('#me-pic').hide()
+   
     document.body.style.backgroundImage = "none"
     document.body.style.backgroundColor = "#2b0fde"
   } else {
-    $('#me-pic').show()
   }
 }
 
