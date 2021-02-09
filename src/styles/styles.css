@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+#root {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    
+}
+
+h1 {
+    font-size: 45px;
+    font-family: "Inconsolata";
+    color: white;
+}
+
+.slogan{
+    box-shadow: inset -10px -6px rgb(0 183 181);
+}
+
+.skillshead{
+    box-shadow: inset 6px -5px rgb(0 183 181);
+}
+
+h3, h2{
+    font-family: "Inconsolata";
+    font-size: 30px;
+    color: white;
+}
+
+h4,h5,h6{
+    color: white;
+}
+
+p{
+    font-size: 18px;
+    color: white;
+}
+
+i {
+    font-size: 30px;
+    color: white;
+}
+
+.sectionheader{
+    text-decoration: underline;
+}
+
+.projectdiv{
+    background-color: #019ea8;
+    border-radius: 10px;
+    box-shadow: 7px 2px 5px 0px #b5ffe5;
+    border: 3px solid white;
+}
+
+.projectdescription {
+    max-width: 600px;
+}
+
+.img-thumbnail {
+    background-color: #009da1 !important;
+    border: 1px solid #018fa3 !important;
+}
+
+.aboutmedescription{
+    max-width: 680px;
+}
+
+button:hover{
+    background-color: #6191b5;
+}
