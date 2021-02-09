@@ -24,8 +24,8 @@ return (
     <div className="d-flex flex-column align-items-center justify-content-center">
     <h2 className="text-center sectionheader">{project.projecttitle}</h2>
     <div className="d-flex flex-row">
-    <button style={buttonStyle} href={project.applicationurl}>Application Url</button>
-    <button style={buttonStyle} href={project.githuburl}>GitHub Url</button>
+    <a style={buttonStyle} href={project.applicationurl}>Application Url</a>
+    <a style={buttonStyle} href={project.githuburl}>GitHub Url</a>
     </div>
     <div className="d-flex projectdescription">
     <p className="text-justify mb-0">{project.projectdescription}</p>
