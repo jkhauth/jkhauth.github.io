@@ -15,8 +15,13 @@ const pageTransition = {
     }
 }
 
+const headerstyle = {
+    fontSize: "75"
+}
+
 return (
 <motion.div initial="out" animate="in" exit="out" variants={pageTransition} className="namediv d-flex flex-column flex-wrap align-items-center justify-content-center mt-3 p-2">
+<h1 style={headerstyle} className="text-center sectionheader skillshead">About Me</h1>
     <div className="d-flex flex-row flex-wrap align-items-center justify-content-center p-2">
     <img className="img-fluid img-thumbnail px-3 py-3" src={picture} alt="responsive"></img>
     <div className="aboutmedescription d-flex flex-column">
