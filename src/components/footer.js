@@ -6,10 +6,10 @@ const Footer = () => {
     const buttonStyle = {
         backgroundColor: "#104166",
         color: "white",
-        borderRadius: "20px",
-        border: "2px solid white",
-        fontSize: "12px",
-        height: "fit-content"
+        borderRadius: "5px",
+        border: "1px solid white",
+        fontSize: "15px",
+        padding: "4px"
         }
     const dividerstyle = {
         fontSize: "20px"

@@ -6,10 +6,11 @@ const Header = () => {
     const buttonStyle = {
         backgroundColor: "#104166",
         color: "white",
-        borderRadius: "20px",
-        border: "2px solid white",
-        fontSize: "12px"
-    }
+        borderRadius: "5px",
+        border: "1px solid white",
+        fontSize: "20px",
+        padding: "4px"
+        }
     const headerstyle = {
         backgroundColor: "darkslategray"
     }

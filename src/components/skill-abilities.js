@@ -39,13 +39,13 @@ const imgstyle = {
 return (
 <motion.div initial="out" animate="in" exit="out" variants={pageTransition} className="d-flex flex-column flex-wrap align-items-center justify-content-center px-2 mt-3">
     <div className="d-flex flex-column justify-content-center align-items-center skillscontent p-2">
-    <h1 className="text-center sectionheader skillshead">Skills & Abilites</h1>
+    <h1 className="text-center sectionheader skillshead">Skills & Abilities</h1>
     <div className="d-flex flex-row justify-content-center align-items-center flex-wrap">
     <img style={imgstyle} className="img-fluid img-thumbnail px-3 py-3" src={picture} alt="computer gif credit to the curious brain"></img>
     <div className="d-flex flex-column px-2 justify-content-center">
     <h2 className="text-center skillshead"><u>Business meets tech...</u></h2>
     <div style={textbox}>
-    <p className="text-justify">Over the past several years, I have held various leadership positions within the hospitality industry. Hard work, determination, and a passion for customer service is what has afforded me these positions and learning opportunities. In each new role, I dedicated myself to bringing the best customer service to our patrons, hitting my company and personal goals every time they were assigned.</p> <p> I am grateful for this time in this industry as it  taught me how to be a team player and adaptablity when situations become difficult. While I love working in teams and providing mentorship to my colleagues, I also shine when working independently. I hold myself accountable to producing the highest quality work.</p>
+    <p className="text-justify">Over the past several years, I have held various leadership positions within the hospitality industry. Hard work, determination, and a passion for customer service is what has afforded me these positions and learning opportunities. In each new role, I dedicated myself to bringing the best customer service to our patrons, hitting my company and personal goals every time they were assigned.</p> <p> I am grateful for this time in this industry as it  taught me how to be a team player and adaptablity when situations became difficult. While I love working in teams and providing mentorship to my colleagues, I also shine when working independently. I hold myself accountable to producing the highest quality work.</p>
     </div>
     <div className="d-flex flex-wrap flex-row justify-content-center">
     <div className="d-flex flex-column flex-wrap mx-2">
