@@ -2,15 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 
 const Header = () => {
-
-    const buttonStyle = {
-        backgroundColor: "#104166",
-        color: "white",
-        borderRadius: "5px",
-        border: "1px solid white",
-        fontSize: "20px",
-        padding: "4px"
-        }
+    
     return(
         <div className="mb-5">
         <h1 className="text-center mb-0">John Hauth</h1>

@@ -3,14 +3,6 @@ import resume from "../utils/Resume.pdf"
 
 const Footer = () => {
 
-    const buttonStyle = {
-        backgroundColor: "#104166",
-        color: "white",
-        borderRadius: "5px",
-        border: "1px solid white",
-        fontSize: "15px",
-        padding: "4px"
-        }
     const dividerstyle = {
         fontSize: "20px"
     }
@@ -20,13 +12,21 @@ const Footer = () => {
     return(
         <div style={footerstyle} className="footer">
         <div className="d-flex flex-row flex-wrap justify-content-center align-items-center">
-        <a style={buttonStyle} className="px-2 mx-2" href={resume} download>Resume</a>
+        <button>
+        <a className="px-2 mx-2" href={resume} download>Resume</a>
+        </button>
         <p style={dividerstyle} className="mb-0">|</p>
-        <a style={buttonStyle} className="px-2 mx-2" href="mailto:jkhauth@gmail.com">Email</a>
+        <button>
+        <a className="px-2 mx-2" href="mailto:jkhauth@gmail.com">Email</a>
+        </button>
         <p style={dividerstyle} className="mb-0">|</p>
-        <a style={buttonStyle} className="px-2 mx-2" href="https://github.com/jkhauth">GitHub</a>
+        <button>
+        <a className="px-2 mx-2" href="https://github.com/jkhauth">GitHub</a>
+        </button>
         <p style={dividerstyle} className="mb-0">|</p>
-        <a style={buttonStyle} className="px-2 mx-2" href="https://www.linkedin.com/in/john-k-hauth/">LinkedIn</a>
+        <button>
+        <a className="px-2 mx-2" href="https://www.linkedin.com/in/john-k-hauth/">LinkedIn</a>
+        </button>
         </div>
         <p className="text-center mb-0"><u>this jkhauth app was created with react</u></p>
         </div>

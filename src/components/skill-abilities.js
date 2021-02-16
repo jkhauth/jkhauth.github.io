@@ -49,16 +49,16 @@ return (
     </div>
     <div className="d-flex flex-wrap flex-row justify-content-center">
     <div className="d-flex flex-column flex-wrap mx-2">
-    <h4>Education:</h4>
+    <h4><u>Education:</u></h4>
     <h5><u>East Stroudsburg University:</u></h5> 
     <h6>Bachelors of Science 2011-2016</h6>
-    <h5><u>University of Philadelphia:</u></h5>
+    <h5><u>University of Pennsylvania:</u></h5>
     <h6>Full-Stack Development 2020-2021</h6>
     </div>
     <div className="d-flex flex-column justify-content-center">
     <div className="d-flex flex-wrap flex-row">
     {/* Framework section */}
-    <div className="d-flex flex-column align-items-center mx-2 ">
+    <div className="d-flex flex-column align-items-center mx-1 ">
     <h4 className="text-center font-italic"><u>Frameworks:</u></h4>
     <img style={badestyle} alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=plastic&logo=react&logoColor=%2361DAFB"/>
     <img style={badestyle} alt="NodeJS" src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=plastic&logo=node.js&logoColor=white"/>
@@ -76,7 +76,7 @@ return (
     </div>
     <div className="d-flex flex-wrap flex-row">
     {/* Database section */}
-    <div className="d-flex flex-column align-items-center mx-2 mb-2">
+    <div className="d-flex flex-column align-items-center mx-1 mb-2">
     <h4 className="text-center font-italic"><u>Databases:</u></h4>
     <img style={badestyle2} alt="NodeJS" src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=plastic&logo=node.js&logoColor=white"/>
     <img style={badestyle2} alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=plastic&logo=mongodb&logoColor=white"/>
