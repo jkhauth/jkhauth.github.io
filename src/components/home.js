@@ -8,11 +8,11 @@ const Home = () => {
 return (
     <div className="d-flex flex-column justify-content-center align-items-center">
  <Fade cascade>
-     <h1 className="text-center">thinker.</h1>
-     <h1 className="text-center">developer.</h1>
-     <h1 className="text-center">innovator.</h1>
-     <div className="d-flex justify-content-center">
-     <h1 className="text-center mt-3">let's build together...</h1>
+     <h1 className="text-center">Hi! I'm John</h1>
+     <h1 className="text-center">A MERN Stack Developer</h1>
+     <h1 className="text-center">Ready to build together?</h1>
+     <div className="intro-text">
+     <p className="text-center text-justify">Coming from an experienced business background, I take pride in the ablity to communicate with clients to go above and beyond their expectations. I am currently looking for employment in development and have a passion for front-end UX-UI design.</p>
      </div>
  </Fade>
  </div>

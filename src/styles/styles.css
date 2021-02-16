@@ -29,6 +29,10 @@ h1 {
     box-shadow: inset 6px -5px rgb(0 183 181);
 }
 
+.intro-text{
+    max-width: 795px;
+}
+
 h3, h2{
     font-family: "Inconsolata";
     font-size: 30px;
@@ -72,6 +76,8 @@ i {
 .aboutmedescription{
     max-width: 680px;
 }
+
+
 
 button:hover{
     background-color: #6191b5;
