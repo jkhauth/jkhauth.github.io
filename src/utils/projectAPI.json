@@ -22,7 +22,7 @@
             "id": "03",
             "projecttitle": "Employee Directory",
             "imagesrc": "https://user-images.githubusercontent.com/72667159/106917151-fc2ff280-66d5-11eb-92be-57d93c85fe75.JPG",
-            "projectdescription": "This is a React based application, demonstrating the solutions on rerendering API information seemlessly. Using an employee dictory as a visual for these solutions, you are able to see all employees, search a specific, or sort them in a particular way.",
+            "projectdescription": "This is a React based application, demonstrating the solutions on rerendering API information seemlessly. Using an employee directory as a visual for these solutions, you are able to see all employees, search a specific, or sort them in a particular way.",
             "languages": "javascript, node, sass",
             "githuburl": "https://github.com/jkhauth/employee-directory",
             "applicationurl": "https://jkhauth.com/employee-directory/"
@@ -49,7 +49,7 @@
             "id": "06",
             "projecttitle": "Code Engine",
             "imagesrc": "https://user-images.githubusercontent.com/72667159/100682057-329e6980-3343-11eb-810c-76c18e88ba88.JPG",
-            "projectdescription": "Keeping your information private on the internet is hard and its easy using the same password over and over again. This application helps you create an unique password to keep your ID safe.",
+            "projectdescription": "Keeping your information private on the internet is hard but it's easy using the same password over and over again. This application helps you create an unique password to keep your ID safe.",
             "languages": "javascript, node, sass",
             "githuburl": "https://github.com/jkhauth/code-engine",
             "applicationurl": "https://jkhauth.com/code-engine/"
