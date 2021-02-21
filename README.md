@@ -12,7 +12,7 @@
 
 ## Install: 
 
- Visit portfolio site: [jkhauth.com](jkhauth.com)
+ Visit portfolio site: [jkhauth.com](https://jkhauth.com/#)
 
 ## Libraries Used:
 
