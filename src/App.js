@@ -3,7 +3,7 @@ import Home from "./components/home"
 import Name from "./components/name"
 import Projects from "./components/projects"
 import Skills from './components/skill-abilities'
-import Header from './components/header'
+//import Header from './components/header'
 import Footer from './components/footer'
 import {AnimatePresence} from 'framer-motion'
 import {HashRouter as Router, Switch, Route} from 'react-router-dom'
@@ -20,7 +20,9 @@ const App = () => {
   return (
     <Router>
     <div style={style} className="App">
-      <Header />
+      {
+      //<Header />
+      }
     <AnimatePresence exitBeforeEnter>
       <Switch>
       <Route path="/" exact component={Home}/>

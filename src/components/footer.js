@@ -28,7 +28,6 @@ const Footer = () => {
         <a className="px-2 mx-2" href="https://www.linkedin.com/in/john-k-hauth/">LinkedIn</a>
         </button>
         </div>
-        <p className="text-center mb-0"><u>this jkhauth app was created with react</u></p>
         </div>
     )
 }
